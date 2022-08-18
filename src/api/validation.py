@@ -1,4 +1,4 @@
-from src.api.const.constants import *
+from api.const.constants import *
 from fastapi import FastAPI, File, Header, Depends, UploadFile, HTTPException
 
 
@@ -11,16 +11,16 @@ class FileValidation:
 
     async def validation(self):
 
-        if self.file_object.content_type not in self.mime_types:
+        if self.file_object.content_type not in self.mime_types: # check file type
             raise HTTPException(
                 status_code=400,
                 detail='please upload .xlsx or .xls'
             )
 
-        if MAX_FILE_SIZE:
+        if MAX_FILE_SIZE: #check file size in bytes
             size = await self.file_object.read()
 
-            if len(size) > self.max_file_size:
+            if len(size) > self.max_file_size: #compare
                 raise HTTPException(
                     status_code=413,
                     detail='file size exceeds 5MB'
