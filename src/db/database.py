@@ -1,9 +1,9 @@
 import sqlalchemy as _sql
 import sqlalchemy.ext.declarative as _declarative
 import sqlalchemy.orm as _orm
-from src.api.const import constants
+DATABASE_URL = 'postgresql://root:root@localhost/fastapi_db'
 
-engine = _sql.create_engine(constants.DATABASE_URL)
+engine = _sql.create_engine(DATABASE_URL)
 
 
 SessionLocal = _orm.sessionmaker(autoflush=False,

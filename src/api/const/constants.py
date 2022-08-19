@@ -3,3 +3,9 @@ MIME_TYPES = ('application/vnd.ms-excel',
 MAX_FILE_SIZE = 5000000
 
 DATABASE_URL = 'postgresql://root:root@localhost/fastapi_db'
+
+
+def filename_getter(filename: str):
+    return filename
+
+d = {'file_name': None}
