@@ -4,7 +4,11 @@ MIME_TYPES = ('application/vnd.ms-excel',
 MAX_FILE_SIZE = 5000000
 
 DATABASE_URL = 'postgresql://root:root@localhost'
+<<<<<<< HEAD
 SENDGRRID_API_KEY = os.getenv('SENDGRID_API_KEY')
+=======
+SENDGRRID_API_KEY = '${{SENDGRRID_API_KEY}}'
+>>>>>>> origin/dev
 FROM_EMAIL = 'garayevarif@gmail.com'
 
 EMAIL_SUBJECTS = {1: "Type 1 - Segment-ə görə satışlar - Hər segmentə görə tarix aralığında məhsul sayı, satiş toplamı, endirim toplamı, qazanc toplamı məlumatları",

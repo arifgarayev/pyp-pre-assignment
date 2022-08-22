@@ -13240,3 +13240,8 @@ python_http_client.exceptions.UnauthorizedError: HTTP Error 401: Unauthorized
 [2022-08-22 20:48:38,063.063] INFO [4331570560] - 127.0.0.1:52134 - "GET /swagger/ HTTP/1.1" 307
 [2022-08-22 20:48:38,068.068] INFO [4331570560] - 127.0.0.1:52134 - "GET /swagger HTTP/1.1" 200
 [2022-08-22 20:48:38,184.184] INFO [4331570560] - 127.0.0.1:52134 - "GET /openapi.json HTTP/1.1" 200
+[2022-08-22 22:37:56,188.188] WARNING [4331914624] - StatReload detected changes in 'api/const/constants.py'. Reloading...
+[2022-08-22 22:37:56,216.216] INFO [4331570560] - Shutting down
+[2022-08-22 22:37:56,318.318] INFO [4331570560] - Waiting for application shutdown.
+[2022-08-22 22:37:56,319.319] INFO [4331570560] - Application shutdown complete.
+[2022-08-22 22:37:56,319.319] INFO [4331570560] - Finished server process [28254]
