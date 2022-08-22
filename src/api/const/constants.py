@@ -3,7 +3,7 @@ MIME_TYPES = ('application/vnd.ms-excel',
 MAX_FILE_SIZE = 5000000
 
 DATABASE_URL = 'postgresql://root:root@localhost'
-SENDGRRID_API_KEY = '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'
+SENDGRRID_API_KEY = '${{SENDGRRID_API_KEY}}'
 FROM_EMAIL = 'garayevarif@gmail.com'
 
 EMAIL_SUBJECTS = {1: "Type 1 - Segment-ə görə satışlar - Hər segmentə görə tarix aralığında məhsul sayı, satiş toplamı, endirim toplamı, qazanc toplamı məlumatları",
