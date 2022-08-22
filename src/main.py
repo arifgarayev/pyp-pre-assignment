@@ -14,15 +14,15 @@ from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel, Field, Required
 import os
 import urllib
-from db import database as db
-from db import services
+from src.db import database as db
+from src.db import services
 import uvicorn
 import pymysql
-from api.const.constants import *
-from api.models import models
-from api.validation import FileValidation
+from src.api.const.constants import *
+from src.api.models import models
+from src.api.validation import FileValidation
 import datetime
-from api.models import services as _service
+from src.api.models import services as _service
 import xlrd
 # *** ------------------------------------- *** #
 
@@ -173,7 +173,7 @@ if __name__ == '__main__':
 
     # print(cwd)
 
-    logging.basicConfig(filename="./src/api/log/logfile.log", level=logging.INFO)
+    logging.basicConfig(filename="./api/log/logfile.log", level=logging.INFO)
 
     uvicorn.run(
         "main:app",

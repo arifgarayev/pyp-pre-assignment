@@ -4,7 +4,7 @@ from enum import Enum, IntEnum
 import sendgrid
 import os
 from sendgrid.helpers.mail import *
-from api.const import constants
+from src.api.const import constants
 from fastapi import FastAPI, HTTPException, status
 import json
 

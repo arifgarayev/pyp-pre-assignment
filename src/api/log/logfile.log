@@ -12885,3 +12885,358 @@ ImportError: Missing optional dependency 'xlrd'. Install xlrd >= 1.0.0 for Excel
 [2022-08-22 02:08:28,041.041] INFO [4300703104] - Started server process [32304]
 [2022-08-22 02:08:28,041.041] INFO [4300703104] - Waiting for application startup.
 [2022-08-22 02:08:28,041.041] INFO [4300703104] - Application startup complete.
+[2022-08-22 08:52:45,125.125] INFO [4374775168] - Will watch for changes in these directories: ['/Users/arifgarayev/Documents/git repos/pyp-pre-assignment/src']
+[2022-08-22 08:52:45,125.125] INFO [4374775168] - Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+[2022-08-22 08:52:45,126.126] INFO [4374775168] - Started reloader process [1883] using StatReload
+[2022-08-22 08:52:45,571.571] INFO [4304684416] - Started server process [1889]
+[2022-08-22 08:52:45,571.571] INFO [4304684416] - Waiting for application startup.
+[2022-08-22 08:52:45,571.571] INFO [4304684416] - Application startup complete.
+[2022-08-22 08:53:03,788.788] INFO [4304684416] - 127.0.0.1:49467 - "GET /swagger HTTP/1.1" 200
+[2022-08-22 08:53:03,798.798] INFO [4304684416] - 127.0.0.1:49467 - "GET /favicon.ico HTTP/1.1" 404
+[2022-08-22 08:53:04,610.610] INFO [4304684416] - 127.0.0.1:49467 - "GET /openapi.json HTTP/1.1" 200
+[2022-08-22 08:53:18,279.279] INFO [4304684416] - {'data': {'is_valid': True, 'is_empty': False, 'file_name': 'example_data.xlsx', 'mime_type': 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'}}
+[2022-08-22 08:53:18,280.280] INFO [4304684416] - 127.0.0.1:49468 - "POST /UploadData/POST HTTP/1.1" 200
+[2022-08-22 08:55:12,378.378] INFO [4304684416] - {'data': {'type': <ModelGET.one: 1>, 'start_date': datetime.date(2010, 1, 1), 'end_date': datetime.date(2020, 1, 1), 'successful validated emails': ['arif.pg@code.edu.az']}, 'query res': [('Channel Partners', Decimal('161263.50'), Decimal('1935162.00'), Decimal('134568.36'), Decimal('1316803.14')), ('Enterprise', Decimal('168552.00'), Decimal('21069000.00'), Decimal('1457305.63'), Decimal('-614545.63')), ('Government', Decimal('470673.50'), Decimal('56403066.50'), Decimal('3898805.83'), Decimal('11388173.17')), ('Midmarket', Decimal('172178.00'), Decimal('2582670.00'), Decimal('200786.93'), Decimal('660103.08')), ('Small Business', Decimal('153139.00'), Decimal('45941700.00'), Decimal('3513781.50'), Decimal('4143168.50'))], 'email responses': {'SendGrid response': {'list of emails successfully sent': ['arif.pg@code.edu.az'], 'status code': 202, 'response body': b'', 'response headers': <http.client.HTTPMessage object at 0x144caabe0>}}}
+[2022-08-22 08:55:12,379.379] INFO [4304684416] - 127.0.0.1:49475 - "GET /SendReport/GET?_type=1&start_date=2010-01-01&end_date=2020-01-01&acceptor_email=arif.pg%40code.edu.az HTTP/1.1" 200
+[2022-08-22 09:29:43,596.596] INFO [4304684416] - {'data': {'type': <ModelGET.one: 1>, 'start_date': datetime.date(2010, 1, 1), 'end_date': datetime.date(2020, 1, 1), 'successful validated emails': ['arif.pg@code.edu.az']}, 'query res': [('Channel Partners', Decimal('161263.50'), Decimal('1935162.00'), Decimal('134568.36'), Decimal('1316803.14')), ('Enterprise', Decimal('168552.00'), Decimal('21069000.00'), Decimal('1457305.63'), Decimal('-614545.63')), ('Government', Decimal('470673.50'), Decimal('56403066.50'), Decimal('3898805.83'), Decimal('11388173.17')), ('Midmarket', Decimal('172178.00'), Decimal('2582670.00'), Decimal('200786.93'), Decimal('660103.08')), ('Small Business', Decimal('153139.00'), Decimal('45941700.00'), Decimal('3513781.50'), Decimal('4143168.50'))], 'email responses': {'SendGrid response': {'list of emails successfully sent': ['arif.pg@code.edu.az'], 'status code': 202, 'response body': b'', 'response headers': <http.client.HTTPMessage object at 0x144c4e640>}}}
+[2022-08-22 09:29:43,599.599] INFO [4304684416] - 127.0.0.1:49873 - "GET /SendReport/GET?_type=1&start_date=2010-01-01&end_date=2020-01-01&acceptor_email=arif.pg%40code.edu.az HTTP/1.1" 200
+[2022-08-22 10:00:54,083.083] WARNING [4374775168] - StatReload detected changes in 'test/testing.py'. Reloading...
+[2022-08-22 10:00:54,174.174] INFO [4304684416] - Shutting down
+[2022-08-22 10:00:54,275.275] INFO [4304684416] - Waiting for application shutdown.
+[2022-08-22 10:00:54,275.275] INFO [4304684416] - Application shutdown complete.
+[2022-08-22 10:00:54,276.276] INFO [4304684416] - Finished server process [1889]
+[2022-08-22 10:00:54,839.839] INFO [4338369920] - Started server process [10796]
+[2022-08-22 10:00:54,839.839] INFO [4338369920] - Waiting for application startup.
+[2022-08-22 10:00:54,839.839] INFO [4338369920] - Application startup complete.
+[2022-08-22 10:01:08,751.751] WARNING [4374775168] - StatReload detected changes in 'test/testing.py'. Reloading...
+[2022-08-22 10:01:08,821.821] INFO [4338369920] - Shutting down
+[2022-08-22 10:01:08,923.923] INFO [4338369920] - Waiting for application shutdown.
+[2022-08-22 10:01:08,925.925] INFO [4338369920] - Application shutdown complete.
+[2022-08-22 10:01:08,925.925] INFO [4338369920] - Finished server process [10796]
+[2022-08-22 10:01:09,556.556] INFO [4303324544] - Started server process [10821]
+[2022-08-22 10:01:09,556.556] INFO [4303324544] - Waiting for application startup.
+[2022-08-22 10:01:09,556.556] INFO [4303324544] - Application startup complete.
+[2022-08-22 10:04:22,723.723] WARNING [4374775168] - StatReload detected changes in 'test/testing.py'. Reloading...
+[2022-08-22 10:04:22,733.733] INFO [4303324544] - Shutting down
+[2022-08-22 10:04:22,835.835] INFO [4303324544] - Waiting for application shutdown.
+[2022-08-22 10:04:22,835.835] INFO [4303324544] - Application shutdown complete.
+[2022-08-22 10:04:22,835.835] INFO [4303324544] - Finished server process [10821]
+[2022-08-22 10:04:23,390.390] INFO [4309108096] - Started server process [10989]
+[2022-08-22 10:04:23,390.390] INFO [4309108096] - Waiting for application startup.
+[2022-08-22 10:04:23,390.390] INFO [4309108096] - Application startup complete.
+[2022-08-22 10:04:41,945.945] WARNING [4374775168] - StatReload detected changes in 'test/testing.py'. Reloading...
+[2022-08-22 10:04:42,036.036] INFO [4309108096] - Shutting down
+[2022-08-22 10:04:42,137.137] INFO [4309108096] - Waiting for application shutdown.
+[2022-08-22 10:04:42,137.137] INFO [4309108096] - Application shutdown complete.
+[2022-08-22 10:04:42,138.138] INFO [4309108096] - Finished server process [10989]
+[2022-08-22 10:04:42,666.666] INFO [4299457920] - Started server process [11026]
+[2022-08-22 10:04:42,666.666] INFO [4299457920] - Waiting for application startup.
+[2022-08-22 10:04:42,666.666] INFO [4299457920] - Application startup complete.
+[2022-08-22 10:05:23,117.117] WARNING [4374775168] - StatReload detected changes in 'test/testing.py'. Reloading...
+[2022-08-22 10:05:23,183.183] INFO [4299457920] - Shutting down
+[2022-08-22 10:05:23,285.285] INFO [4299457920] - Waiting for application shutdown.
+[2022-08-22 10:05:23,290.290] INFO [4299457920] - Application shutdown complete.
+[2022-08-22 10:05:23,290.290] INFO [4299457920] - Finished server process [11026]
+[2022-08-22 10:05:23,831.831] INFO [4338779520] - Started server process [11072]
+[2022-08-22 10:05:23,831.831] INFO [4338779520] - Waiting for application startup.
+[2022-08-22 10:05:23,831.831] INFO [4338779520] - Application startup complete.
+[2022-08-22 10:05:37,508.508] WARNING [4374775168] - StatReload detected changes in 'test/testing.py'. Reloading...
+[2022-08-22 10:05:37,514.514] INFO [4338779520] - Shutting down
+[2022-08-22 10:05:37,615.615] INFO [4338779520] - Waiting for application shutdown.
+[2022-08-22 10:05:37,616.616] INFO [4338779520] - Application shutdown complete.
+[2022-08-22 10:05:37,616.616] INFO [4338779520] - Finished server process [11072]
+[2022-08-22 10:05:38,171.171] INFO [4334863744] - Started server process [11093]
+[2022-08-22 10:05:38,171.171] INFO [4334863744] - Waiting for application startup.
+[2022-08-22 10:05:38,171.171] INFO [4334863744] - Application startup complete.
+[2022-08-22 10:05:41,045.045] WARNING [4374775168] - StatReload detected changes in 'test/testing.py'. Reloading...
+[2022-08-22 10:05:41,110.110] INFO [4334863744] - Shutting down
+[2022-08-22 10:05:41,211.211] INFO [4334863744] - Waiting for application shutdown.
+[2022-08-22 10:05:41,211.211] INFO [4334863744] - Application shutdown complete.
+[2022-08-22 10:05:41,211.211] INFO [4334863744] - Finished server process [11093]
+[2022-08-22 10:05:41,701.701] INFO [4306929024] - Started server process [11104]
+[2022-08-22 10:05:41,701.701] INFO [4306929024] - Waiting for application startup.
+[2022-08-22 10:05:41,701.701] INFO [4306929024] - Application startup complete.
+[2022-08-22 10:05:48,468.468] WARNING [4374775168] - StatReload detected changes in 'test/testing.py'. Reloading...
+[2022-08-22 10:05:48,489.489] INFO [4306929024] - Shutting down
+[2022-08-22 10:05:48,591.591] INFO [4306929024] - Waiting for application shutdown.
+[2022-08-22 10:05:48,591.591] INFO [4306929024] - Application shutdown complete.
+[2022-08-22 10:05:48,591.591] INFO [4306929024] - Finished server process [11104]
+[2022-08-22 10:05:49,119.119] INFO [4339975552] - Started server process [11119]
+[2022-08-22 10:05:49,119.119] INFO [4339975552] - Waiting for application startup.
+[2022-08-22 10:05:49,119.119] INFO [4339975552] - Application startup complete.
+[2022-08-22 10:06:01,007.007] WARNING [4374775168] - StatReload detected changes in 'test/testing.py'. Reloading...
+[2022-08-22 10:06:01,077.077] INFO [4339975552] - Shutting down
+[2022-08-22 10:06:01,178.178] INFO [4339975552] - Waiting for application shutdown.
+[2022-08-22 10:06:01,179.179] INFO [4339975552] - Application shutdown complete.
+[2022-08-22 10:06:01,179.179] INFO [4339975552] - Finished server process [11119]
+[2022-08-22 10:06:01,722.722] INFO [4368336256] - Started server process [11142]
+[2022-08-22 10:06:01,722.722] INFO [4368336256] - Waiting for application startup.
+[2022-08-22 10:06:01,722.722] INFO [4368336256] - Application startup complete.
+[2022-08-22 10:06:42,682.682] WARNING [4374775168] - StatReload detected changes in 'test/testing.py'. Reloading...
+[2022-08-22 10:06:42,747.747] INFO [4368336256] - Shutting down
+[2022-08-22 10:06:42,849.849] INFO [4368336256] - Waiting for application shutdown.
+[2022-08-22 10:06:42,849.849] INFO [4368336256] - Application shutdown complete.
+[2022-08-22 10:06:42,849.849] INFO [4368336256] - Finished server process [11142]
+[2022-08-22 10:06:43,406.406] INFO [4368188800] - Started server process [11192]
+[2022-08-22 10:06:43,406.406] INFO [4368188800] - Waiting for application startup.
+[2022-08-22 10:06:43,406.406] INFO [4368188800] - Application startup complete.
+[2022-08-22 10:07:06,865.865] WARNING [4374775168] - StatReload detected changes in 'test/testing.py'. Reloading...
+[2022-08-22 10:07:06,906.906] INFO [4368188800] - Shutting down
+[2022-08-22 10:07:07,008.008] INFO [4368188800] - Waiting for application shutdown.
+[2022-08-22 10:07:07,008.008] INFO [4368188800] - Application shutdown complete.
+[2022-08-22 10:07:07,008.008] INFO [4368188800] - Finished server process [11192]
+[2022-08-22 10:07:07,589.589] INFO [4339254656] - Started server process [11229]
+[2022-08-22 10:07:07,589.589] INFO [4339254656] - Waiting for application startup.
+[2022-08-22 10:07:07,589.589] INFO [4339254656] - Application startup complete.
+[2022-08-22 10:07:26,613.613] WARNING [4374775168] - StatReload detected changes in 'test/testing.py'. Reloading...
+[2022-08-22 10:07:26,657.657] INFO [4339254656] - Shutting down
+[2022-08-22 10:07:26,758.758] INFO [4339254656] - Waiting for application shutdown.
+[2022-08-22 10:07:26,758.758] INFO [4339254656] - Application shutdown complete.
+[2022-08-22 10:07:26,758.758] INFO [4339254656] - Finished server process [11229]
+[2022-08-22 10:07:27,315.315] INFO [4365682048] - Started server process [11264]
+[2022-08-22 10:07:27,315.315] INFO [4365682048] - Waiting for application startup.
+[2022-08-22 10:07:27,315.315] INFO [4365682048] - Application startup complete.
+[2022-08-22 10:07:53,769.769] WARNING [4374775168] - StatReload detected changes in 'test/testing.py'. Reloading...
+[2022-08-22 10:07:53,863.863] INFO [4365682048] - Shutting down
+[2022-08-22 10:07:53,964.964] INFO [4365682048] - Waiting for application shutdown.
+[2022-08-22 10:07:53,964.964] INFO [4365682048] - Application shutdown complete.
+[2022-08-22 10:07:53,964.964] INFO [4365682048] - Finished server process [11264]
+[2022-08-22 10:07:54,543.543] INFO [4334159232] - Started server process [11300]
+[2022-08-22 10:07:54,543.543] INFO [4334159232] - Waiting for application startup.
+[2022-08-22 10:07:54,543.543] INFO [4334159232] - Application startup complete.
+[2022-08-22 10:08:14,346.346] WARNING [4374775168] - StatReload detected changes in 'test/testing.py'. Reloading...
+[2022-08-22 10:08:14,401.401] INFO [4334159232] - Shutting down
+[2022-08-22 10:08:14,503.503] INFO [4334159232] - Waiting for application shutdown.
+[2022-08-22 10:08:14,503.503] INFO [4334159232] - Application shutdown complete.
+[2022-08-22 10:08:14,503.503] INFO [4334159232] - Finished server process [11300]
+[2022-08-22 10:08:15,101.101] INFO [4333192576] - Started server process [11333]
+[2022-08-22 10:08:15,101.101] INFO [4333192576] - Waiting for application startup.
+[2022-08-22 10:08:15,101.101] INFO [4333192576] - Application startup complete.
+[2022-08-22 10:08:25,114.114] WARNING [4374775168] - StatReload detected changes in 'test/testing.py'. Reloading...
+[2022-08-22 10:08:25,125.125] INFO [4333192576] - Shutting down
+[2022-08-22 10:08:25,226.226] INFO [4333192576] - Waiting for application shutdown.
+[2022-08-22 10:08:25,226.226] INFO [4333192576] - Application shutdown complete.
+[2022-08-22 10:08:25,227.227] INFO [4333192576] - Finished server process [11333]
+[2022-08-22 10:08:25,750.750] INFO [4302161280] - Started server process [11352]
+[2022-08-22 10:08:25,750.750] INFO [4302161280] - Waiting for application startup.
+[2022-08-22 10:08:25,750.750] INFO [4302161280] - Application startup complete.
+[2022-08-22 10:09:27,421.421] WARNING [4374775168] - StatReload detected changes in 'test/testing.py'. Reloading...
+[2022-08-22 10:09:27,443.443] INFO [4302161280] - Shutting down
+[2022-08-22 10:09:27,545.545] INFO [4302161280] - Waiting for application shutdown.
+[2022-08-22 10:09:27,545.545] INFO [4302161280] - Application shutdown complete.
+[2022-08-22 10:09:27,545.545] INFO [4302161280] - Finished server process [11352]
+[2022-08-22 10:09:28,142.142] INFO [4304962944] - Started server process [11419]
+[2022-08-22 10:09:28,142.142] INFO [4304962944] - Waiting for application startup.
+[2022-08-22 10:09:28,142.142] INFO [4304962944] - Application startup complete.
+[2022-08-22 10:09:57,643.643] WARNING [4374775168] - StatReload detected changes in 'test/testing.py'. Reloading...
+[2022-08-22 10:09:57,725.725] INFO [4304962944] - Shutting down
+[2022-08-22 10:09:57,826.826] INFO [4304962944] - Waiting for application shutdown.
+[2022-08-22 10:09:57,826.826] INFO [4304962944] - Application shutdown complete.
+[2022-08-22 10:09:57,826.826] INFO [4304962944] - Finished server process [11419]
+[2022-08-22 10:09:58,397.397] INFO [4304979328] - Started server process [11468]
+[2022-08-22 10:09:58,397.397] INFO [4304979328] - Waiting for application startup.
+[2022-08-22 10:09:58,398.398] INFO [4304979328] - Application startup complete.
+[2022-08-22 10:11:57,214.214] WARNING [4374775168] - StatReload detected changes in 'app/main.py'. Reloading...
+[2022-08-22 10:11:57,248.248] INFO [4304979328] - Shutting down
+[2022-08-22 10:11:57,350.350] INFO [4304979328] - Waiting for application shutdown.
+[2022-08-22 10:11:57,350.350] INFO [4304979328] - Application shutdown complete.
+[2022-08-22 10:11:57,350.350] INFO [4304979328] - Finished server process [11468]
+[2022-08-22 10:13:58,614.614] WARNING [4374775168] - StatReload detected changes in 'main.py'. Reloading...
+[2022-08-22 10:13:59,111.111] INFO [4332717440] - Started server process [12369]
+[2022-08-22 10:13:59,111.111] INFO [4332717440] - Waiting for application startup.
+[2022-08-22 10:13:59,112.112] INFO [4332717440] - Application startup complete.
+[2022-08-22 10:17:00,351.351] INFO [4332717440] - 127.0.0.1:50316 - "GET /swagger HTTP/1.1" 200
+[2022-08-22 10:17:00,502.502] INFO [4332717440] - 127.0.0.1:50316 - "GET /openapi.json HTTP/1.1" 200
+[2022-08-22 10:17:27,582.582] INFO [4332717440] - {'data': {'is_valid': True, 'is_empty': False, 'file_name': 'example_data.xlsx', 'mime_type': 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'}}
+[2022-08-22 10:17:27,582.582] INFO [4332717440] - 127.0.0.1:50317 - "POST /UploadData/POST HTTP/1.1" 200
+[2022-08-22 16:37:40,699.699] INFO [4332717440] - 127.0.0.1:50605 - "GET /swagger HTTP/1.1" 200
+[2022-08-22 16:37:40,711.711] INFO [4332717440] - 127.0.0.1:50605 - "GET /favicon.ico HTTP/1.1" 404
+[2022-08-22 16:37:42,444.444] INFO [4332717440] - 127.0.0.1:50605 - "GET /openapi.json HTTP/1.1" 200
+[2022-08-22 16:37:48,299.299] INFO [4332717440] - {'data': {'is_valid': True, 'is_empty': False, 'file_name': 'example_data.xlsx', 'mime_type': 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'}}
+[2022-08-22 16:37:48,299.299] INFO [4332717440] - 127.0.0.1:50606 - "POST /UploadData/POST HTTP/1.1" 200
+[2022-08-22 16:38:26,878.878] INFO [4332717440] - {'data': {'type': <ModelGET.three: 3>, 'start_date': datetime.date(2010, 1, 1), 'end_date': datetime.date(2020, 12, 12), 'successful validated emails': ['arif.pg@code.edu.az']}, 'query res': [('Amarilla', Decimal('155315.00'), Decimal('19037279.50'), Decimal('1290163.44'), Decimal('2814104.06')), ('Carretera', Decimal('146846.00'), Decimal('14937520.50'), Decimal('1122212.62'), Decimal('1826804.89')), ('Montana', Decimal('154198.00'), Decimal('16549834.50'), Decimal('1159032.62'), Decimal('2114754.88')), ('Paseo', Decimal('338239.50'), Decimal('35611662.00'), Decimal('2600518.05'), Decimal('4797437.95')), ('VTT', Decimal('168783.00'), Decimal('21968533.50'), Decimal('1456612.48'), Decimal('3034608.02')), ('Velo', Decimal('162424.50'), Decimal('19826768.50'), Decimal('1576709.04'), Decimal('2305992.47'))], 'email responses': {'SendGrid response': {'list of emails successfully sent': ['arif.pg@code.edu.az'], 'status code': 202, 'response body': b'', 'response headers': <http.client.HTTPMessage object at 0x146639d60>}}}
+[2022-08-22 16:38:26,878.878] INFO [4332717440] - 127.0.0.1:50610 - "GET /SendReport/GET?_type=3&start_date=2010-01-01&end_date=2020-12-12&acceptor_email=arif.pg%40code.edu.az HTTP/1.1" 200
+[2022-08-22 17:38:37,203.203] INFO [4299621760] - Will watch for changes in these directories: ['/Users/arifgarayev/Documents/git repos/pyp-pre-assignment/src']
+[2022-08-22 17:38:37,203.203] INFO [4299621760] - Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+[2022-08-22 17:38:37,203.203] INFO [4299621760] - Started reloader process [18127] using StatReload
+[2022-08-22 17:38:37,670.670] INFO [4307846528] - Started server process [18131]
+[2022-08-22 17:38:37,670.670] INFO [4307846528] - Waiting for application startup.
+[2022-08-22 17:38:37,670.670] INFO [4307846528] - Application startup complete.
+[2022-08-22 17:38:52,689.689] INFO [4307846528] - 127.0.0.1:50799 - "GET /swagger HTTP/1.1" 200
+[2022-08-22 17:38:52,878.878] INFO [4307846528] - 127.0.0.1:50799 - "GET /openapi.json HTTP/1.1" 200
+[2022-08-22 17:39:01,266.266] INFO [4307846528] - {'data': {'is_valid': True, 'is_empty': False, 'file_name': 'example_data.xlsx', 'mime_type': 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'}}
+[2022-08-22 17:39:01,266.266] INFO [4307846528] - 127.0.0.1:50800 - "POST /UploadData/POST HTTP/1.1" 200
+[2022-08-22 17:39:25,049.049] INFO [4307846528] - 127.0.0.1:50803 - "GET /SendReport/GET?_type=1&start_date=2013-01-01&end_date=2014-01-20&acceptor_email=arif.pg%40code.edu.az HTTP/1.1" 500
+[2022-08-22 17:39:25,051.051] ERROR [4307846528] - Exception in ASGI application
+Traceback (most recent call last):
+  File "/Users/arifgarayev/Documents/git repos/pyp-pre-assignment/venv/lib/python3.8/site-packages/uvicorn/protocols/http/h11_impl.py", line 403, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "/Users/arifgarayev/Documents/git repos/pyp-pre-assignment/venv/lib/python3.8/site-packages/uvicorn/middleware/proxy_headers.py", line 78, in __call__
+    return await self.app(scope, receive, send)
+  File "/Users/arifgarayev/Documents/git repos/pyp-pre-assignment/venv/lib/python3.8/site-packages/fastapi/applications.py", line 269, in __call__
+    await super().__call__(scope, receive, send)
+  File "/Users/arifgarayev/Documents/git repos/pyp-pre-assignment/venv/lib/python3.8/site-packages/starlette/applications.py", line 124, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Users/arifgarayev/Documents/git repos/pyp-pre-assignment/venv/lib/python3.8/site-packages/starlette/middleware/errors.py", line 184, in __call__
+    raise exc
+  File "/Users/arifgarayev/Documents/git repos/pyp-pre-assignment/venv/lib/python3.8/site-packages/starlette/middleware/errors.py", line 162, in __call__
+    await self.app(scope, receive, _send)
+  File "/Users/arifgarayev/Documents/git repos/pyp-pre-assignment/venv/lib/python3.8/site-packages/starlette/middleware/cors.py", line 84, in __call__
+    await self.app(scope, receive, send)
+  File "/Users/arifgarayev/Documents/git repos/pyp-pre-assignment/venv/lib/python3.8/site-packages/starlette/exceptions.py", line 93, in __call__
+    raise exc
+  File "/Users/arifgarayev/Documents/git repos/pyp-pre-assignment/venv/lib/python3.8/site-packages/starlette/exceptions.py", line 82, in __call__
+    await self.app(scope, receive, sender)
+  File "/Users/arifgarayev/Documents/git repos/pyp-pre-assignment/venv/lib/python3.8/site-packages/fastapi/middleware/asyncexitstack.py", line 21, in __call__
+    raise e
+  File "/Users/arifgarayev/Documents/git repos/pyp-pre-assignment/venv/lib/python3.8/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/Users/arifgarayev/Documents/git repos/pyp-pre-assignment/venv/lib/python3.8/site-packages/starlette/routing.py", line 670, in __call__
+    await route.handle(scope, receive, send)
+  File "/Users/arifgarayev/Documents/git repos/pyp-pre-assignment/venv/lib/python3.8/site-packages/starlette/routing.py", line 266, in handle
+    await self.app(scope, receive, send)
+  File "/Users/arifgarayev/Documents/git repos/pyp-pre-assignment/venv/lib/python3.8/site-packages/starlette/routing.py", line 65, in app
+    response = await func(request)
+  File "/Users/arifgarayev/Documents/git repos/pyp-pre-assignment/venv/lib/python3.8/site-packages/fastapi/routing.py", line 227, in app
+    raw_response = await run_endpoint_function(
+  File "/Users/arifgarayev/Documents/git repos/pyp-pre-assignment/venv/lib/python3.8/site-packages/fastapi/routing.py", line 160, in run_endpoint_function
+    return await dependant.call(**values)
+  File "/Users/arifgarayev/Documents/git repos/pyp-pre-assignment/src/main.py", line 144, in get_method
+    data_to_return['email responses'] = sg_instance.send_mail(subject=EMAIL_SUBJECTS[_type], _content=HTML_table_for_email, is_all=True)
+  File "/Users/arifgarayev/Documents/git repos/pyp-pre-assignment/src/api/models/models.py", line 36, in send_mail
+    response = self.sg.client.mail.send.post(request_body=mm.get())
+  File "/Users/arifgarayev/Documents/git repos/pyp-pre-assignment/venv/lib/python3.8/site-packages/python_http_client/client.py", line 277, in http_request
+    self._make_request(opener, request, timeout=timeout)
+  File "/Users/arifgarayev/Documents/git repos/pyp-pre-assignment/venv/lib/python3.8/site-packages/python_http_client/client.py", line 184, in _make_request
+    raise exc
+python_http_client.exceptions.UnauthorizedError: HTTP Error 401: Unauthorized
+[2022-08-22 17:40:18,749.749] INFO [4307846528] - 127.0.0.1:50830 - "GET /SendReport/GET?_type=1&start_date=2013-01-01&end_date=2014-01-20&acceptor_email=arif.pg%40code.edu.az HTTP/1.1" 500
+[2022-08-22 17:40:18,750.750] ERROR [4307846528] - Exception in ASGI application
+Traceback (most recent call last):
+  File "/Users/arifgarayev/Documents/git repos/pyp-pre-assignment/venv/lib/python3.8/site-packages/uvicorn/protocols/http/h11_impl.py", line 403, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "/Users/arifgarayev/Documents/git repos/pyp-pre-assignment/venv/lib/python3.8/site-packages/uvicorn/middleware/proxy_headers.py", line 78, in __call__
+    return await self.app(scope, receive, send)
+  File "/Users/arifgarayev/Documents/git repos/pyp-pre-assignment/venv/lib/python3.8/site-packages/fastapi/applications.py", line 269, in __call__
+    await super().__call__(scope, receive, send)
+  File "/Users/arifgarayev/Documents/git repos/pyp-pre-assignment/venv/lib/python3.8/site-packages/starlette/applications.py", line 124, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Users/arifgarayev/Documents/git repos/pyp-pre-assignment/venv/lib/python3.8/site-packages/starlette/middleware/errors.py", line 184, in __call__
+    raise exc
+  File "/Users/arifgarayev/Documents/git repos/pyp-pre-assignment/venv/lib/python3.8/site-packages/starlette/middleware/errors.py", line 162, in __call__
+    await self.app(scope, receive, _send)
+  File "/Users/arifgarayev/Documents/git repos/pyp-pre-assignment/venv/lib/python3.8/site-packages/starlette/middleware/cors.py", line 84, in __call__
+    await self.app(scope, receive, send)
+  File "/Users/arifgarayev/Documents/git repos/pyp-pre-assignment/venv/lib/python3.8/site-packages/starlette/exceptions.py", line 93, in __call__
+    raise exc
+  File "/Users/arifgarayev/Documents/git repos/pyp-pre-assignment/venv/lib/python3.8/site-packages/starlette/exceptions.py", line 82, in __call__
+    await self.app(scope, receive, sender)
+  File "/Users/arifgarayev/Documents/git repos/pyp-pre-assignment/venv/lib/python3.8/site-packages/fastapi/middleware/asyncexitstack.py", line 21, in __call__
+    raise e
+  File "/Users/arifgarayev/Documents/git repos/pyp-pre-assignment/venv/lib/python3.8/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/Users/arifgarayev/Documents/git repos/pyp-pre-assignment/venv/lib/python3.8/site-packages/starlette/routing.py", line 670, in __call__
+    await route.handle(scope, receive, send)
+  File "/Users/arifgarayev/Documents/git repos/pyp-pre-assignment/venv/lib/python3.8/site-packages/starlette/routing.py", line 266, in handle
+    await self.app(scope, receive, send)
+  File "/Users/arifgarayev/Documents/git repos/pyp-pre-assignment/venv/lib/python3.8/site-packages/starlette/routing.py", line 65, in app
+    response = await func(request)
+  File "/Users/arifgarayev/Documents/git repos/pyp-pre-assignment/venv/lib/python3.8/site-packages/fastapi/routing.py", line 227, in app
+    raw_response = await run_endpoint_function(
+  File "/Users/arifgarayev/Documents/git repos/pyp-pre-assignment/venv/lib/python3.8/site-packages/fastapi/routing.py", line 160, in run_endpoint_function
+    return await dependant.call(**values)
+  File "/Users/arifgarayev/Documents/git repos/pyp-pre-assignment/src/main.py", line 144, in get_method
+    data_to_return['email responses'] = sg_instance.send_mail(subject=EMAIL_SUBJECTS[_type], _content=HTML_table_for_email, is_all=True)
+  File "/Users/arifgarayev/Documents/git repos/pyp-pre-assignment/src/api/models/models.py", line 36, in send_mail
+    response = self.sg.client.mail.send.post(request_body=mm.get())
+  File "/Users/arifgarayev/Documents/git repos/pyp-pre-assignment/venv/lib/python3.8/site-packages/python_http_client/client.py", line 277, in http_request
+    self._make_request(opener, request, timeout=timeout)
+  File "/Users/arifgarayev/Documents/git repos/pyp-pre-assignment/venv/lib/python3.8/site-packages/python_http_client/client.py", line 184, in _make_request
+    raise exc
+python_http_client.exceptions.UnauthorizedError: HTTP Error 401: Unauthorized
+[2022-08-22 20:23:34,482.482] INFO [4334028160] - Will watch for changes in these directories: ['/Users/arifgarayev/Documents/git repos/pyp-pre-assignment/src']
+[2022-08-22 20:23:34,482.482] ERROR [4334028160] - [Errno 48] Address already in use
+[2022-08-22 20:24:38,385.385] INFO [4302865792] - Will watch for changes in these directories: ['/Users/arifgarayev/Documents/git repos/pyp-pre-assignment/src']
+[2022-08-22 20:24:38,385.385] ERROR [4302865792] - [Errno 48] Address already in use
+[2022-08-22 20:24:57,841.841] INFO [4367549824] - Will watch for changes in these directories: ['/Users/arifgarayev/Documents/git repos/pyp-pre-assignment/src']
+[2022-08-22 20:24:57,841.841] INFO [4367549824] - Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+[2022-08-22 20:24:57,841.841] INFO [4367549824] - Started reloader process [27117] using StatReload
+[2022-08-22 20:24:58,308.308] INFO [4342449536] - Started server process [27121]
+[2022-08-22 20:24:58,308.308] INFO [4342449536] - Waiting for application startup.
+[2022-08-22 20:24:58,308.308] INFO [4342449536] - Application startup complete.
+[2022-08-22 20:25:03,019.019] INFO [4342449536] - 127.0.0.1:52006 - "GET / HTTP/1.1" 404
+[2022-08-22 20:25:06,692.692] INFO [4342449536] - 127.0.0.1:52006 - "GET /swagger HTTP/1.1" 200
+[2022-08-22 20:25:07,897.897] INFO [4342449536] - 127.0.0.1:52006 - "GET /openapi.json HTTP/1.1" 200
+[2022-08-22 20:25:22,142.142] INFO [4342449536] - 127.0.0.1:52007 - "GET /SendReport/GET?_type=1&start_date=2010-01-01&end_date=2020-10-10&acceptor_email=string%40code.edu.az HTTP/1.1" 500
+[2022-08-22 20:25:22,144.144] ERROR [4342449536] - Exception in ASGI application
+Traceback (most recent call last):
+  File "/Users/arifgarayev/Documents/git repos/pyp-pre-assignment/venv/lib/python3.8/site-packages/uvicorn/protocols/http/h11_impl.py", line 403, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "/Users/arifgarayev/Documents/git repos/pyp-pre-assignment/venv/lib/python3.8/site-packages/uvicorn/middleware/proxy_headers.py", line 78, in __call__
+    return await self.app(scope, receive, send)
+  File "/Users/arifgarayev/Documents/git repos/pyp-pre-assignment/venv/lib/python3.8/site-packages/fastapi/applications.py", line 269, in __call__
+    await super().__call__(scope, receive, send)
+  File "/Users/arifgarayev/Documents/git repos/pyp-pre-assignment/venv/lib/python3.8/site-packages/starlette/applications.py", line 124, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Users/arifgarayev/Documents/git repos/pyp-pre-assignment/venv/lib/python3.8/site-packages/starlette/middleware/errors.py", line 184, in __call__
+    raise exc
+  File "/Users/arifgarayev/Documents/git repos/pyp-pre-assignment/venv/lib/python3.8/site-packages/starlette/middleware/errors.py", line 162, in __call__
+    await self.app(scope, receive, _send)
+  File "/Users/arifgarayev/Documents/git repos/pyp-pre-assignment/venv/lib/python3.8/site-packages/starlette/middleware/cors.py", line 84, in __call__
+    await self.app(scope, receive, send)
+  File "/Users/arifgarayev/Documents/git repos/pyp-pre-assignment/venv/lib/python3.8/site-packages/starlette/exceptions.py", line 93, in __call__
+    raise exc
+  File "/Users/arifgarayev/Documents/git repos/pyp-pre-assignment/venv/lib/python3.8/site-packages/starlette/exceptions.py", line 82, in __call__
+    await self.app(scope, receive, sender)
+  File "/Users/arifgarayev/Documents/git repos/pyp-pre-assignment/venv/lib/python3.8/site-packages/fastapi/middleware/asyncexitstack.py", line 21, in __call__
+    raise e
+  File "/Users/arifgarayev/Documents/git repos/pyp-pre-assignment/venv/lib/python3.8/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/Users/arifgarayev/Documents/git repos/pyp-pre-assignment/venv/lib/python3.8/site-packages/starlette/routing.py", line 670, in __call__
+    await route.handle(scope, receive, send)
+  File "/Users/arifgarayev/Documents/git repos/pyp-pre-assignment/venv/lib/python3.8/site-packages/starlette/routing.py", line 266, in handle
+    await self.app(scope, receive, send)
+  File "/Users/arifgarayev/Documents/git repos/pyp-pre-assignment/venv/lib/python3.8/site-packages/starlette/routing.py", line 65, in app
+    response = await func(request)
+  File "/Users/arifgarayev/Documents/git repos/pyp-pre-assignment/venv/lib/python3.8/site-packages/fastapi/routing.py", line 227, in app
+    raw_response = await run_endpoint_function(
+  File "/Users/arifgarayev/Documents/git repos/pyp-pre-assignment/venv/lib/python3.8/site-packages/fastapi/routing.py", line 160, in run_endpoint_function
+    return await dependant.call(**values)
+  File "/Users/arifgarayev/Documents/git repos/pyp-pre-assignment/src/main.py", line 144, in get_method
+    data_to_return['email responses'] = sg_instance.send_mail(subject=EMAIL_SUBJECTS[_type], _content=HTML_table_for_email, is_all=True)
+  File "/Users/arifgarayev/Documents/git repos/pyp-pre-assignment/src/api/models/models.py", line 36, in send_mail
+    response = self.sg.client.mail.send.post(request_body=mm.get())
+  File "/Users/arifgarayev/Documents/git repos/pyp-pre-assignment/venv/lib/python3.8/site-packages/python_http_client/client.py", line 277, in http_request
+    self._make_request(opener, request, timeout=timeout)
+  File "/Users/arifgarayev/Documents/git repos/pyp-pre-assignment/venv/lib/python3.8/site-packages/python_http_client/client.py", line 184, in _make_request
+    raise exc
+python_http_client.exceptions.UnauthorizedError: HTTP Error 401: Unauthorized
+[2022-08-22 20:42:23,339.339] INFO [4342449536] - 127.0.0.1:52095 - "GET /swagger HTTP/1.1" 200
+[2022-08-22 20:42:23,527.527] INFO [4342449536] - 127.0.0.1:52095 - "GET /openapi.json HTTP/1.1" 200
+[2022-08-22 20:42:58,900.900] INFO [4299769216] - Will watch for changes in these directories: ['/Users/arifgarayev/Documents/git repos/pyp-pre-assignment/src']
+[2022-08-22 20:42:58,900.900] INFO [4299769216] - Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+[2022-08-22 20:42:58,900.900] INFO [4299769216] - Started reloader process [28233] using StatReload
+[2022-08-22 20:42:59,471.471] INFO [4309108096] - Started server process [28239]
+[2022-08-22 20:42:59,471.471] INFO [4309108096] - Waiting for application startup.
+[2022-08-22 20:42:59,471.471] INFO [4309108096] - Application startup complete.
+[2022-08-22 20:42:59,510.510] INFO [4309108096] - 127.0.0.1:52109 - "GET /swagger HTTP/1.1" 200
+[2022-08-22 20:42:59,668.668] INFO [4309108096] - 127.0.0.1:52109 - "GET /openapi.json HTTP/1.1" 200
+[2022-08-22 20:43:01,903.903] INFO [4309108096] - Shutting down
+[2022-08-22 20:43:02,005.005] INFO [4309108096] - Waiting for application shutdown.
+[2022-08-22 20:43:02,005.005] INFO [4309108096] - Application shutdown complete.
+[2022-08-22 20:43:02,005.005] INFO [4309108096] - Finished server process [28239]
+[2022-08-22 20:43:02,070.070] INFO [4299769216] - Stopping reloader process [28233]
+[2022-08-22 20:43:04,602.602] INFO [4331914624] - Will watch for changes in these directories: ['/Users/arifgarayev/Documents/git repos/pyp-pre-assignment/src']
+[2022-08-22 20:43:04,602.602] INFO [4331914624] - Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+[2022-08-22 20:43:04,602.602] INFO [4331914624] - Started reloader process [28251] using StatReload
+[2022-08-22 20:43:05,069.069] INFO [4331570560] - Started server process [28254]
+[2022-08-22 20:43:05,069.069] INFO [4331570560] - Waiting for application startup.
+[2022-08-22 20:43:05,069.069] INFO [4331570560] - Application startup complete.
+[2022-08-22 20:43:06,652.652] INFO [4331570560] - 127.0.0.1:52118 - "GET /swagger HTTP/1.1" 200
+[2022-08-22 20:43:06,752.752] INFO [4331570560] - 127.0.0.1:52118 - "GET /openapi.json HTTP/1.1" 200
+[2022-08-22 20:43:10,832.832] INFO [4331570560] - {'data': {'is_valid': True, 'is_empty': False, 'file_name': 'example_data.xlsx', 'mime_type': 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'}}
+[2022-08-22 20:43:10,832.832] INFO [4331570560] - 127.0.0.1:52118 - "POST /UploadData/POST HTTP/1.1" 200
+[2022-08-22 20:48:35,464.464] INFO [4331570560] - 127.0.0.1:52134 - "GET /swagger/UploadData/POST HTTP/1.1" 404
+[2022-08-22 20:48:38,063.063] INFO [4331570560] - 127.0.0.1:52134 - "GET /swagger/ HTTP/1.1" 307
+[2022-08-22 20:48:38,068.068] INFO [4331570560] - 127.0.0.1:52134 - "GET /swagger HTTP/1.1" 200
+[2022-08-22 20:48:38,184.184] INFO [4331570560] - 127.0.0.1:52134 - "GET /openapi.json HTTP/1.1" 200

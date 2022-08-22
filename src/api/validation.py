@@ -1,4 +1,4 @@
-from api.const.constants import *
+from src.api.const.constants import *
 from fastapi import FastAPI, File, Header, Depends, UploadFile, HTTPException
 
 

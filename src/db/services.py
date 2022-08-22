@@ -1,5 +1,5 @@
-import db.database as _database
-import db.models as _models
+import src.db.database as _database
+import src.db.models as _models
 import json
 
 conn = _database.engine.connect()

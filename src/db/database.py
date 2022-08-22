@@ -3,7 +3,7 @@ import sqlalchemy.ext.declarative as _declarative
 import sqlalchemy.orm as _orm
 
 #DATABASE_URL = 'postgresql://root:root@localhost/postgresql'
-DATABASE_URL = 'postgresql://root:root@localhost/postgres'
+DATABASE_URL = 'postgresql://root:root@localhost:5432/postgres_db'
 
 engine = _sql.create_engine(DATABASE_URL)
 
