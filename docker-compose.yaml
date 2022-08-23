@@ -23,6 +23,8 @@ services:
     image: postgres:alpine
 
     container_name: db
+
+    hostname: db
     ports:
       - "5432:5432"
 
@@ -30,6 +32,8 @@ services:
       - POSTGRES_PASSWORD=root
       - POSTGRES_USER=root
       - POSTGRES_DB=postgres_db
+
+
 
 
 
