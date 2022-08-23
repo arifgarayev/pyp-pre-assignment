@@ -7,7 +7,6 @@ DATABASE_URL = 'postgresql://root:root@localhost'
 
 SENDGRRID_API_KEY = os.getenv('SENDGRID_API_KEY')
 
-SENDGRRID_API_KEY = '${{SENDGRRID_API_KEY}}'
 
 FROM_EMAIL = 'garayevarif@gmail.com'
 
