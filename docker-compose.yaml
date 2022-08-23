@@ -39,11 +39,18 @@ services:
 
 
   nudges:
+    restart: always
     build: .
     command: uvicorn src.main:app --host 0.0.0.0 --port 80
     volumes:
       - .:/usr/src
     ports:
       - 80:80
+
+    environment:
+      - POSTGRES_PASSWORD=root
+      - POSTGRES_USER=root
+      - POSTGRES_DB=postgres_db
+      - POSTGRES_HOST=postgres
     depends_on:
       - db_auth
