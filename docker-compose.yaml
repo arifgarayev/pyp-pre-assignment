@@ -44,7 +44,7 @@ services:
     volumes:
       - .:/usr/src
     ports:
-      - 80:80
+      - "80:80"
     environment:
     - POSTGRES_HOST=postgres
     - POSTGRES_PASSWORD=root
